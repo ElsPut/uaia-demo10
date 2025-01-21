@@ -36,4 +36,4 @@ jobs:
         with:
          deploymentName: ${{github.run_Number}}
          resourceGroupName: ${{env.AZ_RG_Name}}
-         template: ./sa.bicep
+         template: ./storage.bicep
